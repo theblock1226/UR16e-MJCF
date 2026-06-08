@@ -6,7 +6,7 @@
 
 本目录包含 **UR16e** 的 MuJoCo MJCF 模型，用于仿真与可视化。
 
-- **实际控制**：请使 `ur16e.urdf` 配合 ROS / MoveIt。
+- **实际控制**：请使用 `ur16e.urdf` 配合 ROS / MoveIt。
 - **本 MJCF**：主要用于 MuJoCo viewer 中检查 mesh 与关节对齐；惯性、阻尼、碰撞几何仍 largely 继承自 [MuJoCo Menagerie UR10e](https://github.com/google-deepmind/mujoco_menagerie) 模板，未针对 UR16e 重新标定。
 
 ### 来源与修改
